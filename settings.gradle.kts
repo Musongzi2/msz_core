@@ -9,6 +9,8 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven { setUrl("https://repo1.maven.org/maven2/") }
+        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
     }
 }
 dependencyResolutionManagement {
@@ -16,6 +18,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { setUrl("https://repo1.maven.org/maven2/") }
+        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
     }
 }
 

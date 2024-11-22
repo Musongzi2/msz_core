@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.musongzi.core"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 30
@@ -105,7 +105,8 @@ dependencies {
 
     api("androidx.startup:startup-runtime:1.2.0")
 
-
+    // PictureSelector basic (Necessary)
+    api("io.github.lucksiege:pictureselector:v3.10.5")
     // 协程核心库
     api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
     // 协程Android支持库
