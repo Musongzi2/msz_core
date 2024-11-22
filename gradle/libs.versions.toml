@@ -1,33 +1,94 @@
 [versions]
+adapterRxjava3 = "2.9.0"
 agp = "8.5.1"
 androidxViewpager2 = "1.1.0"
+cardview = "1.0.0"
+converterGson = "2.11.0"
+exoplayerUi = "2.19.1"
+fragmentKtx = "1.8.5"
+glide = "4.12.0"
+gson = "2.10.1"
+immersionbar = "3.0.0"
 kotlin = "1.9.0"
 coreKtx = "1.15.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
+kotlinxCoroutinesCore = "1.8.1"
 legacySupportV4 = "1.0.0"
 lifecycleExtensions = "2.2.0"
 lifecycleService = "2.8.7"
+loggingInterceptor = "4.12.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+multidex = "2.0.1"
+okhttp = "2.7.2"
+okio = "3.9.0"
+pictureselector = "v3.10.5"
+recyclerview = "1.3.2"
+refreshLayoutKernel = "2.0.3"
+rxandroid = "3.0.0"
+rxjava = "3.0.4"
+rxlifecycleAndroid = "4.0.2"
+startupRuntime = "1.2.0"
 
 [libraries]
+adapter-rxjava3 = { module = "com.squareup.retrofit2:adapter-rxjava3", version.ref = "adapterRxjava3" }
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+androidx-cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
 androidx-legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
 androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleService" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleService" }
 androidx-lifecycle-service = { module = "androidx.lifecycle:lifecycle-service", version.ref = "lifecycleService" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleService" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-startup-runtime = { module = "androidx.startup:startup-runtime", version.ref = "startupRuntime" }
 androidx-viewpager2-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "androidxViewpager2" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayerUi" }
+exoplayer-ui = { module = "com.google.android.exoplayer:exoplayer-ui", version.ref = "exoplayerUi" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+immersionbar = { module = "com.gyf.immersionbar:immersionbar", version.ref = "immersionbar" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "kotlinxCoroutinesCore" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+okhttp = { module = "com.squareup.okhttp:okhttp", version.ref = "okhttp" }
+okhttp-apache = { module = "com.squareup.okhttp:okhttp-apache", version.ref = "okhttp" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+pictureselector = { module = "io.github.lucksiege:pictureselector", version.ref = "pictureselector" }
+refresh-footer-ball = { module = "com.scwang.smart:refresh-footer-ball", version.ref = "refreshLayoutKernel" }
+refresh-footer-classics = { module = "com.scwang.smart:refresh-footer-classics", version.ref = "refreshLayoutKernel" }
+refresh-header-classics = { module = "com.scwang.smart:refresh-header-classics", version.ref = "refreshLayoutKernel" }
+refresh-header-material = { module = "com.scwang.smart:refresh-header-material", version.ref = "refreshLayoutKernel" }
+refresh-header-falsify = { module = "com.scwang.smart:refresh-header-falsify", version.ref = "refreshLayoutKernel" }
+refresh-header-radar = { module = "com.scwang.smart:refresh-header-radar", version.ref = "refreshLayoutKernel" }
+refresh-header-two-level = { module = "com.scwang.smart:refresh-header-two-level", version.ref = "refreshLayoutKernel" }
+refresh-layout-kernel = { module = "com.scwang.smart:refresh-layout-kernel", version.ref = "refreshLayoutKernel" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+rxlifecycle = { module = "com.trello.rxlifecycle4:rxlifecycle", version.ref = "rxlifecycleAndroid" }
+rxlifecycle-android = { module = "com.trello.rxlifecycle4:rxlifecycle-android", version.ref = "rxlifecycleAndroid" }
+rxlifecycle-android-lifecycle = { module = "com.trello.rxlifecycle4:rxlifecycle-android-lifecycle", version.ref = "rxlifecycleAndroid" }
+rxlifecycle-android-lifecycle-kotlin = { module = "com.trello.rxlifecycle4:rxlifecycle-android-lifecycle-kotlin", version.ref = "rxlifecycleAndroid" }
+rxlifecycle-components = { module = "com.trello.rxlifecycle4:rxlifecycle-components", version.ref = "rxlifecycleAndroid" }
+rxlifecycle-components-preference = { module = "com.trello.rxlifecycle4:rxlifecycle-components-preference", version.ref = "rxlifecycleAndroid" }
+rxlifecycle-kotlin = { module = "com.trello.rxlifecycle4:rxlifecycle-kotlin", version.ref = "rxlifecycleAndroid" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
